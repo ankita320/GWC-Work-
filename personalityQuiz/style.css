@@ -1,1 +1,233 @@
 
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #F9E9EC;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-style: italic;
+  color: #fb6592;
+  background-color: #1D2F6F; 
+  border-radius: 20px;
+  border-color: #f96c96;
+  font-size: 50px;
+  border-style: dotted;
+  border-width: 7px;
+font-family: 'Lusitana', serif;
+  text-shadow: 3px 2px white;
+  text-align: center;
+}
+
+h1:hover {
+  font-style: italic;
+  color: #ff80a6;
+  background-color: #1D2F6F; 
+  border-radius: 20px;
+  border-color: #f97ba1;
+  font-size: 50px;
+  border-style: dotted;
+  border-width: 7px;
+  animation-name: color;
+  animation-duration: 4s;
+font-family: 'Lusitana', serif;
+    text-shadow: 3px 2px white;
+  text-align: center;
+
+}
+
+@keyframes color{
+  20% {
+      border-color: #8cebf8;
+       color:#8cebf8;
+
+  }
+  40%{
+      border-color: #8b98f8;
+      color: #8b98f8;
+
+  }
+  60% {
+      border-color: #c28bf8;
+      color: #c28bf8;
+
+  }
+  80% {
+      border-color: #f88cc5;
+      color: #f88cc5;
+
+  }
+  100% {
+      border-color: #f88b91;
+      color: #f88b91;
+
+  }
+   
+  
+}
+
+
+h2 {
+  margin-top: 2em; 
+  color: #468cfb;
+  background-color: #e1e4f9; 
+  text-align: center;
+  font-size: 30px;
+  border-color: #468cfb;
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  font-family: 'Lusitana', serif;
+  
+}
+#result {
+  color: #468cfb;
+  background-color: #e1e4f9; 
+  text-align: center;
+  font-size: 50px;
+  border-color: #e1e4f9;
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  font-family: 'Lusitana', serif;
+  margin-top: 10px;
+  
+}
+
+.result {
+  margin-top: 2em; 
+  color: #468cfb;
+  background-color: #e1e4f9; 
+  text-align: center;
+  font-size: 30px;
+  border-color: #468cfb;
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  font-family: 'Lusitana', serif;
+  
+}
+
+
+
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+  /* justify-content: center; */
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+  align-text: center;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 320px;
+  margin-right: 10px;
+  border-radius: 15px;
+   border-color: #ef6185;
+  border-style: double;
+  border-width: 5px;
+}
+
+.answer-choicee img {
+  height: 350px;
+  margin-right: 17px;
+    border-radius: 15px;
+   border-color: #EF5D60;
+  border-style: double;
+  border-width: 5px;
+}
+
+
+
+
+.answer-choiceee img {
+  height: 233px;
+  margin-right: 10px;
+    border-radius: 15px;
+   border-color: #EF5D60;
+  border-style: double;
+  border-width: 5px;
+}
+
+
+.answer-choiceeee img {
+  height: 240px;
+  margin-right: 10px;
+    border-radius: 15px;
+   border-color: #EF5D60;
+  border-style: double;
+  border-width: 5px;
+}
+
+.answer-choiceeeee img {
+  height: 245px;
+  margin-right: 15px;
+    border-radius: 15px;
+   border-color: #EF5D60;
+  border-style: double;
+  border-width: 5px;
+}
+
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+  background-color: #f4b3be;
+  color: black;
+  font-size: 20px;
+  border-radius: 20px;
+  border-color: #f4b3be;
+  font-family: 'serif';
+  margin-left: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.ok {
+  text-align: center;
+  background-color: #bad7f2;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: 'serif';
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;
+}
+
+
+#res {
+  background-color: #eec4ee;
+  color: #3d40a4;
+  border-radius: 20ps;
+  border-color: #eec4ee;
+  margin-top: 40px;
+  margin-bottom: -40px;
+  font-size: 30px;
+}
+
+
+a href{
+  text-decoration: none;
+}
+
+#image {
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    margin-bottom: 50px;
+
+}
